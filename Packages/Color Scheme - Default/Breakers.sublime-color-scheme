@@ -25,7 +25,7 @@
     "globals":
     {
         "foreground": "var(grey3)",
-        "background": "var(white5)",
+        "background": "var(blue3)",
         "caret": "var(blue2)",
         "line_highlight": "var(white3)",
         "selection": "var(white3)",
@@ -50,7 +50,8 @@
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(grey2)"
+            "foreground": "var(grey2)",
+            "font_style": "italic"
         },
         {
             "name": "String",
@@ -86,7 +87,8 @@
         {
             "name": "Keyword",
             "scope": "keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(pink)"
+            "foreground": "var(pink)",
+            "font_style": "italic"
         },
         {
             "name": "Operators",
@@ -264,7 +266,7 @@
         {
             "name": "markup code",
             "scope": "markup.raw.inline",
-            "background": "color(var(white3) alpha(0.5))"
+            "background": "color(var(blue3) alpha(0.5))"
         },
         {
             "name": "markup punctuation",
